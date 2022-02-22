@@ -129,6 +129,13 @@ ul {
 
 }
 
+/* pseudoelementos */
+
+p::selection {
+    background-color: palevioletred;
+    color: whitesmoke;
+}
+
 
 
  /* media querys */
