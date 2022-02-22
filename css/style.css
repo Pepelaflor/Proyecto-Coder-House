@@ -17,9 +17,6 @@ img {
     height: auto;
 }
 
-header {
-    background-color: pink;
-}
 
 footer {
     background-color: pink;
@@ -27,6 +24,7 @@ footer {
 
 .header {
     grid-area: header;
+    background-color: pink;
 }
 
 .Foto1 {
@@ -77,29 +75,6 @@ footer {
     "footer footer";
 }
 
-@media screen and (max-width: 500px) {
-    .grid-container {
-        width: 100%;
-        height: 100vh;
-        display: grid;
-        grid-template-areas: 
-        "header"
-        "Foto1"
-        "Texto1"
-        "Foto2"
-        "Texto2"
-        "footer";
-    }
-}
-
-.header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 h1 {
     padding-bottom: 10px;
 }
@@ -144,3 +119,31 @@ ul {
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+ /* media querys */
+@media screen and (max-width: 500px) {
+    .grid-container {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "Foto1"
+        "Texto1"
+        "Foto2"
+        "Texto2"
+        "footer";
+    }
+}
+/* fin media querys */
