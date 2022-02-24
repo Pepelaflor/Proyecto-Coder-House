@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: palevioletred;
+    ul {
+        list-style: none;
+    }
+}

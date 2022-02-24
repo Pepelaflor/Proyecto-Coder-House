@@ -1,156 +1,36 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-/* Fin Reset */
-
 body {
-    background-color: violet;
+  background-color: #CF9FFF;
 }
 
-img {
-    width: 100%;
-    height: auto;
+header {
+  background-color: palevioletred;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
 }
 
+section div div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
 footer {
-    background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: palevioletred;
 }
-
-.header {
-    grid-area: header;
-    background-color: pink;
+footer ul {
+  list-style: none;
 }
-
-.Foto1 {
-    grid-area: Foto1;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.Texto1 {
-    grid-area: Texto1;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 100px;
-}
-
-.Foto2 {
-    grid-area: Foto2;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.Texto2 {
-    grid-area: Texto2;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 100px;
-}
-
-.footer {
-    grid-area: footer;
-    width: 100%;
-}
-
-
-
-.grid-container {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "Foto1 Foto2"
-    "Texto1 Texto2"
-    "footer footer";
-}
-
-h1 {
-    padding-bottom: 10px;
-}
-
-.navbar-list {
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-items {
-    color: black;
-}
-
-nav {
-    width: 100%;
-}
-
-p {
-    padding: 10px;
-}
-
-ul {
-    padding: 10px;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.copyright {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-/* pseudoelementos */
 
 p::selection {
     background-color: palevioletred;
     color: whitesmoke;
 }
 
-
-
- /* media querys */
-@media screen and (max-width: 500px) {
-    .grid-container {
-        width: 100%;
-        height: 100vh;
-        display: grid;
-        grid-template-areas: 
-        "header"
-        "Foto1"
-        "Texto1"
-        "Foto2"
-        "Texto2"
-        "footer";
-    }
-}
-/* fin media querys */
+/*# sourceMappingURL=style.css.map */
