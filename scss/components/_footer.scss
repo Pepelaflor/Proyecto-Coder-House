@@ -1,11 +1,19 @@
+@import "../base/maps";
+@import "../base/mixin";
+
+
 footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
     position: fixed;
     bottom: 0;
-    background-color: palevioletred;
+    @include colores(palevioletred);
     ul {
-        list-style: none;
+        list-style: map-get($lists, estilo)
+    }
+    a {
+        display: flex;
+        justify-content: flex-end;
     }
 }
