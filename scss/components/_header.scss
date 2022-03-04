@@ -1,7 +1,10 @@
+@import "../base/mixin";
+
 header {
-    background-color: palevioletred;
+    @include colores(palevioletred);
     h1 {
         display: flex;
         justify-content: center;
+        color: wheat;
     }
 }

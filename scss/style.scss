@@ -1,7 +1,26 @@
 body {
-    background-color: #CF9FFF
+    background-color: #CF9FFF;
+    font-family: Consolas, 'Courier New', monospace;
 }
 
+p {
+    font-family: Consolas, 'Courier New', monospace
+}
+
+@media screen and (min-width: 480px) {
+    .navbar-brand {
+        display: none
+    }
+    
+}
+
+p::selection {
+    color: wheat;
+    background-color: palevioletred
+}
 @import "../scss/components/header";
 @import "../scss/components/imagenes";
 @import "../scss/components/footer";
+@import "../scss/base/extends";
+@import "../scss/base/maps";
+@import "../scss/base/mixin";
