@@ -1,11 +1,10 @@
-/* paquete de propiedades que se crean con un placeholder y las propiedades de CSS */@at-root
-/* Placeholder = $ */
-/* Heredar la extension */
-
-
-
-%imagenes {
+%pos-center {
     display: flex;
     justify-content: center;
     width: 100%;
+
+}
+
+%colorhyf {
+    background-color: palevioletred;
 }

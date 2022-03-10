@@ -1,19 +1,28 @@
-@import "../base/maps";
+@import "../base/extends";
 @import "../base/mixin";
-
-
 footer {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     position: fixed;
     bottom: 0;
-    @include colores(palevioletred);
-    ul {
-        list-style: map-get($lists, estilo)
+    color: map-get($colorhyf, color);
+    h4 {
+        font-family: 'Times New Roman', Times, serif;
+        @extend %pos-center;
     }
-    a {
-        display: flex;
-        justify-content: flex-end;
+    p {
+        @extend %pos-center;
+    }
+    .iconos {
+        @extend %pos-center;
+    }
+}
+
+.footerjr {
+    position: relative;
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        position: relative;
     }
 }
