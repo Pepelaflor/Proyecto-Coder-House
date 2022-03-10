@@ -1,4 +1,3 @@
-
-@mixin colores($color) {
-    background-color: $color;
+@mixin font ($font) {
+    font-family: $font;
 }

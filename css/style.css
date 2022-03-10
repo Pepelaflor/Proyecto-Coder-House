@@ -1,59 +1,145 @@
-body {
-  background-color: #CF9FFF;
-  font-family: Consolas, "Courier New", monospace;
-}
-
-p {
-  font-family: Consolas, "Courier New", monospace;
-}
-
-@media screen and (min-width: 480px) {
-  .navbar-brand {
-    display: none;
-  }
-}
-p::selection {
-  color: wheat;
-  background-color: palevioletred;
+footer .iconos, footer p, footer h4, .pdisco2, .infoalbum2, .infoalbum1, section div div, h4, h3, h2, header h1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 header {
   background-color: palevioletred;
 }
+
 header h1 {
-  display: flex;
-  justify-content: center;
-  color: wheat;
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
 }
 
-/* paquete de propiedades que se crean con un placeholder y las propiedades de CSS */
-section div div {
+h1::selection {
+  background-color: whitesmoke;
+  color: palevioletred;
+}
+
+/* headers secundarios */
+h2 {
+  padding-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+
+h2::selection {
+  background-color: palevioletred;
+  color: whitesmoke;
+}
+
+h3 {
+  padding-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+
+h4 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+
+.h3jr {
+  padding-top: 20px;
+}
+
+footer .iconos, footer p, footer h4, .pdisco2, .infoalbum2, .infoalbum1, section div div, header h1, h2, h3, h4 {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+header {
+  background-color: palevioletred;
+}
+
+/* Esto corresponde al estilo de los elementos dentro de las columnas*/
+.img1 {
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
+.infoalbum1 {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.infoalbum2 {
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.pdisco1 {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.pdisco2 {
+  padding-top: 25px;
+}
+
+.pjrmafia {
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-top: 20px;
+}
+
+footer .iconos, footer p, footer h4, header h1, h2, h3, h4, section div div, .infoalbum1, .infoalbum2, .pdisco2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+header {
+  background-color: palevioletred;
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
   position: fixed;
   bottom: 0;
-  background-color: palevioletred;
+  color: whitesmoke;
 }
-footer ul {
-  list-style: none;
+footer h4 {
+  font-family: "Times New Roman", Times, serif;
 }
-footer a {
-  display: flex;
-  justify-content: flex-end;
+.footerjr {
+  position: relative;
 }
 
-/* paquete de propiedades que se crean con un placeholder y las propiedades de CSS */
-section div div {
+@media screen and (max-width: 480px) {
+  footer {
+    position: relative;
+  }
+}
+header h1, h2, h3, h4, section div div, .infoalbum1, .infoalbum2, .pdisco2, footer h4, footer p, footer .iconos {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+header {
+  background-color: palevioletred;
+}
+
+p::selection {
+  color: whitesmoke;
+  background-color: palevioletred;
+}
+
+body {
+  background-color: #FEF9E7;
+}
+
+footer {
+  background-color: palevioletred;
 }
 
 /*# sourceMappingURL=style.css.map */

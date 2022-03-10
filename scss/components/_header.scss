@@ -1,10 +1,52 @@
-@import "../base/mixin";
+@import "../base/extends.scss";
+@import "../base/maps";
 
-header {
-    @include colores(palevioletred);
+header {  
+    @extend %colorhyf;
+
     h1 {
-        display: flex;
-        justify-content: center;
-        color: wheat;
+        @extend %pos-center;
+        color: map-get($colorhyf, color);
+        font-family: 'Times New Roman', Times, serif;
+        
+        
     }
+}
+
+
+h1::selection {
+    background-color: whitesmoke;
+    color: palevioletred
+}
+/* headers secundarios */
+
+h2 {
+    @extend %pos-center;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+h2::selection {
+    background-color: palevioletred;
+    color: whitesmoke;
+}
+
+h3 {
+    @extend %pos-center;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+h4 {
+    @extend %pos-center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.h3jr {
+    padding-top: 20px;
 }

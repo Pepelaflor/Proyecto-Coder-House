@@ -1,0 +1,50 @@
+@import "../base/extends";
+
+/* Esto corresponde al estilo de los elementos dentro de las columnas*/
+section {
+    div {
+        div {
+            @extend %pos-center;
+        }
+    }
+}
+
+.img1 { 
+    padding-right: 40px;
+    padding-bottom: 30px;
+    
+}
+
+.infoalbum1 {
+    @extend %pos-center;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.infoalbum2 {
+    @extend %pos-center;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.pdisco1 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.pdisco2 {
+    @extend %pos-center;
+    padding-top: 25px;
+}
+
+.pjrmafia {
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: map-get($lists, estilo);
+    padding-top: 20px;
+    
+    
+}
+
