@@ -4,7 +4,7 @@ footer .iconos, footer p, footer h4, .pdisco2, .infoalbum2, .infoalbum1, section
   width: 100%;
 }
 
-header {
+.contacto, .botoncontacto, header {
   background-color: palevioletred;
 }
 
@@ -20,7 +20,7 @@ h1::selection {
 
 /* headers secundarios */
 h2 {
-  padding-bottom: 20px;
+  padding: 20px 0 20px 0;
   font-family: "Times New Roman", Times, serif;
   font-style: oblique;
 }
@@ -53,14 +53,17 @@ footer .iconos, footer p, footer h4, .pdisco2, .infoalbum2, .infoalbum1, section
   width: 100%;
 }
 
-header {
+.contacto, .botoncontacto, header {
   background-color: palevioletred;
 }
 
 /* Esto corresponde al estilo de los elementos dentro de las columnas*/
 .img1 {
-  padding-right: 40px;
-  padding-bottom: 30px;
+  padding: 50px 50px 100px 0;
+}
+
+.pindex3 {
+  padding-bottom: 50px;
 }
 
 .infoalbum1 {
@@ -91,13 +94,25 @@ ul {
   padding-top: 20px;
 }
 
+.placeholdercontacto {
+  color: whitesmoke;
+}
+
+.botoncontacto {
+  color: whitesmoke;
+}
+
+.contacto {
+  color: whitesmoke;
+}
+
 footer .iconos, footer p, footer h4, header h1, h2, h3, h4, section div div, .infoalbum1, .infoalbum2, .pdisco2 {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-header {
+header, .botoncontacto, .contacto {
   background-color: palevioletred;
 }
 
@@ -114,7 +129,7 @@ footer h4 {
   position: relative;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   footer {
     position: relative;
   }
@@ -125,7 +140,7 @@ header h1, h2, h3, h4, section div div, .infoalbum1, .infoalbum2, .pdisco2, foot
   width: 100%;
 }
 
-header {
+header, .botoncontacto, .contacto {
   background-color: palevioletred;
 }
 
