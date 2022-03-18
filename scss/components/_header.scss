@@ -22,7 +22,7 @@ h1::selection {
 
 h2 {
     @extend %pos-center;
-    padding-bottom: 20px;
+    padding: 20px 0 20px 0;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
 }

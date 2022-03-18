@@ -1,4 +1,5 @@
 @import "../base/extends";
+@import "../base/maps";
 
 /* Esto corresponde al estilo de los elementos dentro de las columnas*/
 section {
@@ -10,9 +11,13 @@ section {
 }
 
 .img1 { 
-    padding-right: 40px;
-    padding-bottom: 30px;
+    padding: 50px 50px 100px 0;
     
+}
+
+
+.pindex3 {
+    padding-bottom: 50px;
 }
 
 .infoalbum1 {
@@ -46,5 +51,20 @@ ul {
     padding-top: 20px;
     
     
+}
+
+.placeholdercontacto {
+    color: map-get($colorhyf , color );
+}
+
+.botoncontacto {
+    @extend %colorhyf;
+    color: map-get($colorhyf , color );
+    
+}
+
+.contacto {
+    @extend %colorhyf;
+    color: map-get($colorhyf , color);
 }
 
