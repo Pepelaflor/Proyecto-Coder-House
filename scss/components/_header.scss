@@ -1,8 +1,19 @@
 @import "../base/extends.scss";
 @import "../base/maps";
 
+/* Ajustes site-wide */
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Header y h1 */
+
 header {  
     @extend %colorhyf;
+    border-bottom: solid 2px black;
 
     h1 {
         @extend %pos-center;
@@ -14,11 +25,12 @@ header {
 }
 
 
+
 h1::selection {
     background-color: whitesmoke;
     color: palevioletred
 }
-/* headers secundarios */
+/* h secundarios */
 
 h2 {
     @extend %pos-center;

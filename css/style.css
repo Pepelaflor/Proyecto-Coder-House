@@ -8,6 +8,17 @@ footer .iconos, footer p, footer h4, .pdisco2, .infoalbum2, .infoalbum1, section
   background-color: palevioletred;
 }
 
+/* Ajustes site-wide */
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Header y h1 */
+header {
+  border-bottom: solid 2px black;
+}
 header h1 {
   color: whitesmoke;
   font-family: "Times New Roman", Times, serif;
@@ -18,7 +29,7 @@ h1::selection {
   color: palevioletred;
 }
 
-/* headers secundarios */
+/* h secundarios */
 h2 {
   padding: 20px 0 20px 0;
   font-family: "Times New Roman", Times, serif;
@@ -77,16 +88,20 @@ footer .iconos, footer p, footer h4, .pdisco2, .infoalbum2, .infoalbum1, section
 }
 
 .pdisco1 {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 25px;
 }
 
 .pdisco2 {
-  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .pjrmafia {
   padding-bottom: 20px;
+}
+
+.phisto {
+  padding-bottom: 25px;
 }
 
 ul {
@@ -106,6 +121,10 @@ ul {
   color: whitesmoke;
 }
 
+.contactobotones {
+  display: inline;
+}
+
 footer .iconos, footer p, footer h4, header h1, h2, h3, h4, section div div, .infoalbum1, .infoalbum2, .pdisco2 {
   display: flex;
   justify-content: center;
@@ -121,6 +140,7 @@ footer {
   position: fixed;
   bottom: 0;
   color: whitesmoke;
+  border-top: solid 2px black;
 }
 footer h4 {
   font-family: "Times New Roman", Times, serif;

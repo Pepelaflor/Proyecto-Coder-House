@@ -5,6 +5,7 @@ footer {
     position: fixed;
     bottom: 0;
     color: map-get($colorhyf, color);
+    border-top: solid 2px black;
     h4 {
         font-family: 'Times New Roman', Times, serif;
         @extend %pos-center;
